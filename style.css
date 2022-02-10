@@ -1,0 +1,84 @@
+.three-card-column-holder {
+  margin: 100px auto;
+  max-width: 375px;
+  min-width: 345px;
+
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.Sedans-section {
+  height: 390px;
+  background: hsl(31, 77%, 52%);
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.SUVs-section {
+  height: 390px;
+  background: hsl(184, 100%, 22%);
+}
+
+.Luxury-section {
+  height: 390px;
+  background: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+/* ========container======= */
+
+.all-card {
+  color: white;
+  padding: 45px;
+}
+
+.subtitle {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+.para-style {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 30px;
+  padding: 0 32px 0 0;
+  margin-bottom: 30px;
+}
+
+.all-button {
+  border: 3px solid white;
+  border-radius: 2em;
+  padding: 15px 35px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  background: white;
+}
+
+.button-1:hover {
+  color: white;
+  background: hsl(31, 77%, 52%);
+  cursor: pointer;
+}
+.button-2:hover {
+  color: white;
+  background: hsl(184, 100%, 22%);
+  cursor: pointer;
+}
+.button-3:hover {
+  color: white;
+  background: hsl(179, 100%, 13%);
+  cursor: pointer;
+}
+
+.button-1 {
+  color: hsl(31, 77%, 52%);
+}
+.button-2 {
+  color: hsl(184, 100%, 22%);
+}
+.button-3 {
+  color: hsl(179, 100%, 13%);
+}
+
+/* ========content========= */
