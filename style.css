@@ -1,10 +1,12 @@
+/* ========container======= */
+body {
+  height: 100vh;
+}
+
 .three-card-column-holder {
-  margin: 100px auto;
+  margin: auto;
   max-width: 375px;
   min-width: 345px;
-
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .Sedans-section {
@@ -27,6 +29,8 @@
 }
 
 /* ========container======= */
+
+/* ========content========= */
 
 .all-card {
   color: white;
@@ -82,3 +86,50 @@
 }
 
 /* ========content========= */
+
+@media (min-width: 1030px) {
+  /* ========container======= */
+
+  body {
+    padding: 50px 0;
+    height: 100vh;
+  }
+
+  .three-card-column-holder {
+    display: flex;
+    max-width: 1000px;
+    min-width: 700px;
+    max-height: 480px;
+  }
+
+  .Sedans-section {
+    height: 440px;
+    flex-shrink: 1;
+    background: hsl(31, 77%, 52%);
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 9px;
+  }
+
+  .SUVs-section {
+    height: 440px;
+    flex-shrink: 1;
+    background: hsl(184, 100%, 22%);
+  }
+
+  .Luxury-section {
+    height: 440px;
+    flex-shrink: 1;
+    background: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 0px;
+  }
+  /* ========container======= */
+
+  .para-style {
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 30px;
+    padding: 0 32px 0 0;
+    margin-bottom: 75px;
+  }
+}
