@@ -1,6 +1,9 @@
 /* ========container======= */
 body {
-  height: 100vh;
+  height: 100%;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .three-card-column-holder {
@@ -87,12 +90,13 @@ body {
 
 /* ========content========= */
 
-@media (min-width: 1030px) {
+/* ========media==query==1========= */
+@media (min-width: 800px) {
   /* ========container======= */
 
   body {
     padding: 50px 0;
-    height: 100vh;
+    height: 100%;
   }
 
   .three-card-column-holder {
@@ -103,7 +107,69 @@ body {
   }
 
   .Sedans-section {
+    margin-left: auto;
+    min-width: 170px;
+    max-width: 170px;
+    flex-shrink: 1;
+    background: hsl(31, 77%, 52%);
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 9px;
+  }
+
+  .SUVs-section {
+    min-width: 170px;
+    max-width: 170px;
+    flex-shrink: 1;
+    background: hsl(184, 100%, 22%);
+  }
+
+  .Luxury-section {
+    margin-right: auto;
+    min-width: 178px;
+    max-width: 170px;
+    flex-shrink: 1;
+    background: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 0px;
+  }
+  /* ========container======= */
+
+  .subtitle {
+    font-size: 30px;
+  }
+
+  .para-style {
+    font-family: "Lexend Deca", sans-serif;
+    /* font-size: 15px; */
+    line-height: 25px;
+    /* padding: 0 32px 0 0; */
+    margin-bottom: 30px;
+  }
+}
+/* ========media==query==1========= */
+
+/* ========media==query==2========= */
+
+@media (min-width: 1030px) {
+  /* ========container======= */
+
+  body {
+    padding: 50px 0;
+    height: 100%;
+  }
+
+  .three-card-column-holder {
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 700px;
+    max-height: 480px;
+  }
+
+  .Sedans-section {
     height: 440px;
+    max-width: 700px;
     flex-shrink: 1;
     background: hsl(31, 77%, 52%);
     border-top-right-radius: 0px;
@@ -112,12 +178,15 @@ body {
 
   .SUVs-section {
     height: 440px;
+    max-width: 700px;
     flex-shrink: 1;
     background: hsl(184, 100%, 22%);
   }
 
   .Luxury-section {
     height: 440px;
+    max-width: 700px;
+
     flex-shrink: 1;
     background: hsl(179, 100%, 13%);
     border-bottom-right-radius: 9px;
