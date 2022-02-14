@@ -1,6 +1,7 @@
 /* ========container======= */
 body {
   height: 100%;
+  margin-top: 50px;
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -86,6 +87,12 @@ body {
 }
 .button-3 {
   color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 15px;
+  margin: 10px;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 /* ========content========= */
@@ -200,5 +207,10 @@ body {
     line-height: 30px;
     padding: 0 32px 0 0;
     margin-bottom: 75px;
+  }
+  .attribution {
+    font-size: 15px;
+    margin-top: 60px;
+    font-family: "Lexend Deca", sans-serif;
   }
 }
